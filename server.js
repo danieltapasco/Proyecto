@@ -6,6 +6,6 @@ const server=http.createServer((req, res) => {
   res.sertHeader('Content-Type','text/plain');
   res.end('Hello patron');
 });
-server.listen(port,host, ()=> {
+server.listen(port, ()=> {
     console.log(`Server is running on:${port}`);
 });
