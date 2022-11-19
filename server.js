@@ -8,5 +8,5 @@ const server=http.createServer((req, res) => {
   res.end('Hello patron');
 });
 server.listen(port,host, ()=> {
-  console.log(`Server running on port: ${port}`);
+    console.log(`Server is running on http://${host}:${port}`);
 });
